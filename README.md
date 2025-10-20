@@ -16,7 +16,15 @@ _Kullanıcı kimlik doğrulaması için giriş penceresi._
 
 ### Ana Envanter Penceresi
 ![Ana Ekran Görüntüsü](screenshots/main_window.png)
-_Cihazların listelendiği, filtrelenebildiği ve istatistiklerin gösterildiği ana pencere._
+_Cihazların listelendiği ve istatistiklerin gösterildiği ana pencere._
+
+### Ana Envanter Penceresi (Dolu)
+![Ana Ekran Görüntüsü](screenshots/main_populated.png)
+_Envanterin listelendiği ve istatistiklerin gösterildiği ana pencere._
+
+### Yeni Kayıt Ekleme
+![Yeni Kayıt Diyalog Penceresi](screenshots/add_dialog.png)
+_Yeni bir envanter öğesi eklemek için kullanılan diyalog kutusu._
 
 ## Özellikler
 
@@ -69,6 +77,3 @@ Proje, arayüz (`views`) ve ana mantığı ayırmaya çalışarak geliştirilmi�
 - `src/views/login.py`: Giriş ekranı arayüzü ve mantığı.
 - `src/views/main_window.py`: Ana envanter ekranı (`MainWindow`) ve dialog pencereleri (`InventoryDialog` vb.)
 
-## Lisans
-
-MIT License
