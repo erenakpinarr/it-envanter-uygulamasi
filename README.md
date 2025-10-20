@@ -1,5 +1,7 @@
 # IT Envanter Yönetim Sistemi
 
+**Sürüm 1.0** 
+
 `Tkinter` ve `ttkbootstrap` kullanılarak geliştirilmiş, yönetici/kullanıcı rollerine sahip, modern bir BT Envanter Yönetim Uygulaması.
 
 ## Özellikler
