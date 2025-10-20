@@ -1,6 +1,6 @@
 import tkinter as tk
 import sqlite3
-from views.login import LoginWindow
+from .views.login import LoginWindow
 
 def setup_database():
     """Veritabanı bağlantısını oluşturur ve gerekli tabloları (inventory_items, users) kurar."""
