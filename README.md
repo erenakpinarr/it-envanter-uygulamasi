@@ -8,23 +8,36 @@
 ![GUI](https://img.shields.io/badge/GUI-ttkbootstrap-brightgreen)
 
 ## Ekran Görüntüleri
+
 İşte uygulamamızdan birkaç görsel örnek:
 
 ### Giriş Ekranı
-![Uygulama Giriş Ekranı](screenshots/login_screen.png)
-_Kullanıcı kimlik doğrulaması için giriş penceresi._
+<p align="center">
+  <img src="screenshots/login_screen.png" alt="Uygulama Giriş Ekranı" width="450"/>
+  <br>
+  <em>Kullanıcı kimlik doğrulaması için giriş penceresi.</em>
+</p>
 
-### Ana Envanter Penceresi
-![Ana Ekran Görüntüsü](screenshots/main_window.png)
-_Cihazların listelendiği ve istatistiklerin gösterildiği ana pencere._
+### Ana Envanter Penceresi (Boş)
+<p align="center">
+  <img src="screenshots/main_window.png" alt="Ana Ekran Görüntüsü - Boş" width="700"/>
+  <br>
+  <em>Uygulamanın ilk açılışta boş hali ve istatistik paneli.</em>
+</p>
 
 ### Ana Envanter Penceresi (Dolu)
-![Ana Ekran Görüntüsü](screenshots/main_populated.png)
-_Envanterin listelendiği ve istatistiklerin gösterildiği ana pencere._
+<p align="center">
+  <img src="screenshots/main_populated.png" alt="Ana Ekran Görüntüsü - Dolu" width="700"/>
+  <br>
+  <em>Envanterin listelendiği ana pencere.</em>
+</p>
 
 ### Yeni Kayıt Ekleme
-![Yeni Kayıt Diyalog Penceresi](screenshots/add_dialog.png)
-_Yeni bir envanter öğesi eklemek için kullanılan diyalog kutusu._
+<p align="center">
+  <img src="screenshots/add_dialog.png" alt="Yeni Kayıt Diyalog Penceresi" width="450"/>
+  <br>
+  <em>Yeni bir envanter öğesi eklemek için kullanılan diyalog kutusu.</em>
+</p>
 
 ## Özellikler
 
