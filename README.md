@@ -4,6 +4,20 @@
 
 `Tkinter` ve `ttkbootstrap` kullanılarak geliştirilmiş, yönetici/kullanıcı rollerine sahip, modern bir BT Envanter Yönetim Uygulaması.
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![GUI](https://img.shields.io/badge/GUI-ttkbootstrap-brightgreen)
+
+## Ekran Görüntüleri
+İşte uygulamamızdan birkaç görsel örnek:
+
+### Giriş Ekranı
+![Uygulama Giriş Ekranı](screenshots/login_screen.png)
+_Kullanıcı kimlik doğrulaması için giriş penceresi._
+
+### Ana Envanter Penceresi
+![Ana Ekran Görüntüsü](screenshots/main_window.png)
+_Cihazların listelendiği, filtrelenebildiği ve istatistiklerin gösterildiği ana pencere._
+
 ## Özellikler
 
 - **Modern Arayüz:** `ttkbootstrap` kütüphanesi ile temalı (`litera` teması) ve duyarlı (`grid` layout) kullanıcı arayüzü.
