@@ -118,9 +118,9 @@ class LoginWindow(ttk.Window):
             
         if user:
             print(f"Giriş başarılı: {user}") 
-            self.withdraw() # Login penceresini gizle
+            self.withdraw() 
             main_app = MainWindow(self.db_conn, user) 
-            main_app.protocol("WM_DELETE_WINDOW", self.quit) # Ana pencere kapanınca uygulamayı kapat
+            main_app.protocol("WM_DELETE_WINDOW", self.quit) 
         else:
             messagebox.showerror("Giriş Başarısız", "Hatalı kullanıcı adı veya şifre!")
-            self.password_var.set("") # Başarısız girişte sadece şifreyi temizle
+            self.password_var.set("") 

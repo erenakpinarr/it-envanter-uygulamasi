@@ -345,7 +345,7 @@ class MainWindow(tk.Tk):
             import pandas as pd
             cols = self.table['columns']; col_map = {'Zimmet Sahibi': 'assigned_to', 'Ad': 'name', 'Kategori': 'category', 'Model': 'model', 'Marka': 'brand', 'Seri No': 'serial_number', 'Alım Tarihi': 'purchase_date', 'Durum': 'status', 'Konum': 'location', 'Notlar':'notes'} 
             db_cols = [col_map.get(c) for c in cols if col_map.get(c)] 
-            params = [] # Filtreleme kaldırıldığı için boş
+            params = []
 
             query = f"SELECT {', '.join(db_cols)} FROM inventory_items"
             
